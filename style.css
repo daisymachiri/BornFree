@@ -22,15 +22,9 @@
 .row .col-md-6 {
     margin-bottom: 20px;
 }
- .container {
-        display: flex;
-        justify-content: flex-end; /* Align items to the right */
+ .logo {
+        margin: 0 !important;
     }
-    
-    .logo {
-        margin: 0; /* Remove default margins */
-    }
-
 }
 
 
