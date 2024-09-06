@@ -22,11 +22,14 @@
 .row .col-md-6 {
     margin-bottom: 20px;
 }
- .logo {
-    margin-left: auto;  /* Pushes the logo to the right */
-    margin-right: 10px; /* Optional: Adjust the right margin as needed */
-    display: block;     /* Ensures the logo is displayed as a block element */
-  }
+ .container {
+        display: flex;
+        justify-content: flex-end; /* Align items to the right */
+    }
+    
+    .logo {
+        margin: 0; /* Remove default margins */
+    }
 
 }
 
