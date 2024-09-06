@@ -22,6 +22,9 @@
 .row .col-md-6 {
     margin-bottom: 20px;
 }
+  .logo { 
+    margin-left: -10px; /* Removes any margin on the left */
+}
 
 }
 
