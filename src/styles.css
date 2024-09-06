@@ -1,0 +1,243 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+h2 {text-align: center;
+padding: 50px 0 50px 0;}
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+
+.product-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 250px; /* Fixed width for consistent card size */
+    text-align: center;
+    transition: transform 0.3s;
+    position: relative;
+    display: flex;
+    flex-direction: column; /* Ensure elements stack vertically */
+    align-items: center; /* Center align items horizontally */
+    justify-content: space-between; /* Space out items vertically */
+    height: 400px; /* Fixed height to maintain consistency */
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-images {
+    flex: 1; /* Take up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Limit image height */
+    object-fit: cover; /* Ensure image covers area */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Button styles */
+button.add-to-cart-btn {
+    background-color: white;
+    color:  rgb(50, 91, 167);
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: none;
+    margin-top: 10px;
+    padding: 0 50px 0 50px;
+    border: 1px solid rgb(50, 91, 167);
+}
+
+button.add-to-cart-btn:hover {
+    background-color: rgb(30, 60, 120);
+    color: #fff;
+}
+.footer-block {
+    width: 100%;
+    display: flex;
+    background-color: #07509D
+}
+
+.footer-block>div {
+    width: 100%;
+    max-width: 1280px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 0 15px;
+    justify-content: space-between
+}
+
+.footer-block>div>div {
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: self-end;
+}
+
+.footer-block>div>div span {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%
+}
+
+.footer-block>div>div p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0
+}
+
+.footer-block>div input {
+    font-size: 14px;
+    border: 2px solid #fff;
+    width: 100%;
+    background-color: transparent;
+    padding: 11px 15px
+}
+
+.footer-block>div input::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: #fff
+}
+
+.footer-block>div input::placeholder {
+    color: #fff
+}
+
+.footer-block .btn1 {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 13px 20px;
+    margin-top: 20px
+}
+
+.footer-block>div ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px
+}
+
+.footer-block>div ul li {
+    list-style: none;
+    margin-right: 10px;
+    transition: .3s all
+}
+
+.footer-block>div ul a {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border: solid 3px #000;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.footer-block>div ul li:hover a {
+    background-color: #000;
+    
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #171818;
+    padding: 15px;
+    border-bottom: 1px solid #a8a8a857;
+    
+}
+
+.footer>div {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 30px
+}
+
+.footer>div>div {
+    width: 25%
+}
+
+.footer>div>div>strong {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer>div>div ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer>div>div ul li {
+    list-style: none;
+    color: #DFDDD6;
+    padding: 5px 0;
+    font-size: 12px;
+    display: flex
+}
+
+.footer>div>div ul li .fa-fw {
+    color: #07509D;
+    margin-right: 8px
+}
+
+.footer>div>div ul li a {
+    color: #DFDDD6
+}
+
+.footer>div>div ul li span {
+    line-height: 20px
+}
+
+.footer>div>div {
+    width: 25%
+}
+
+
+.row {
+    clear: left;
+}
+
+.row0 {
+    clear: left;
+    line-height: 1px;
+}

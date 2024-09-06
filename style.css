@@ -1,0 +1,727 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+  /* For tablet phones: */
+  .content {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.content .button {
+    display: inline-block;
+    margin: 20px auto 0;
+}
+
+.row .col-md-6 {
+    margin-bottom: 20px;
+}
+
+}
+
+
+
+body, html{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+.content{
+    padding-top: 25px !important;
+}
+
+.testimonials-section{
+    padding: 50px;
+    text-align: center;
+}
+
+
+
+.top-section {
+    background-color: #fff;
+    padding: 0px 50px 50px 0px;
+    text-align: center;
+   
+}
+/* top border start */
+.content-wrapper {
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(21, 18, 241, 0.1);
+  overflow: hidden;
+  background-color: #ffffff; /* Optional: Add background color */
+  padding: 20px;
+ 
+}
+.align-items-center {
+  padding: 30px;
+}
+.rounded-image {
+  width: 100%; 
+  margin: 20px;/* Ensure the image takes full width of its column */
+}
+
+/*END*/
+
+.banner-content{
+  margin: 0 0 150px 30px;
+ justify-content: space-between;
+  
+}
+
+
+.logo {
+    width: 130px; 
+    height: 90px; 
+    margin-left: -7px; /* Removes any margin on the left */
+}
+
+.fw-bold {
+    color: rgb(50, 91, 167);
+    text-align: none;
+}
+.btn {
+  background-color: rgb(50, 91, 167);
+}
+.circle-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(-90deg, transparent 50%, #0056b3 100%);
+    z-index: 1;
+    border-radius: 50%;
+}
+
+img.img-fluid {
+  height: 350px;
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+   
+    
+}
+
+
+/*========== second sec ==========*/
+.explore-born{
+  margin: -20px;
+}
+.second-section {
+  padding: 10px;
+  text-align: center;
+}
+
+.lifestyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -30px;
+}
+
+.first-row .col, .second-row .col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: -10px; /* Adds space below each image in a column */
+  margin: 20px;
+}
+
+.first-row .col img, .second-row .col img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 20px; /* Adds space between the images */
+}
+
+@media (min-width: 768px) {
+  .first-row {
+    flex-direction: row;
+    gap: 10px; /* Adds space between columns in the first row */
+  }
+
+  .second-row {
+    flex-direction: row;
+    gap: 10px; /* Adds space between columns in the second row */
+    margin: 20px;
+  }
+
+  .first-row .col img, .second-row .col img {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 0;
+  }
+}
+
+
+  
+/*========== EXPERIENCE OUTDOOR LIVING ==========*/
+  
+  .section-title{
+    font-size: 2.25rem;
+    color:black;
+    margin-bottom: 1.5rem;
+  }
+  .about__description{
+    color: black;
+  
+  }
+  
+  .section-subtitle{
+    display: block;
+    color: black;
+    font-weight: 500;
+    margin-bottom: .5rem;
+  }
+  .container{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+  }
+ /*==========CHAT==========*/
+ .bg-light-blue {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-wrapper a {
+  overflow: hidden;
+  text-decoration: none;
+  color: black;
+}
+
+.rounded {
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+.p-4 {
+  padding: 1.5rem; /* Adds padding to the content wrapper */
+}
+
+
+  /*========== END ==========*/
+.products{
+  text-align: center;
+}
+  
+
+/*========== BUTTONS ==========*/
+.button{
+    display: inline-block;
+    background-color: rgb(50, 91, 167);
+    color: #FFF;
+    padding: .75rem 1rem;
+    border-radius: .5rem;
+    transition: .3s;
+    text-decoration: none;
+  }
+  
+  .button:hover{
+    background-color: rgb(50, 91, 167);
+    color: #FFF;
+    
+  }
+
+.second-section {
+    background-color: #ffffff;
+}
+
+.explore-text{
+  text-align: center;
+ margin: 45px;
+}
+
+.second-section img {
+    max-width: 100%;
+    margin: 20px 0;
+}
+
+.lifestyle {
+    display: flex;
+    justify-content: center; /* Center the images horizontally */
+    gap: 20px; /* Space between images */
+}
+
+.lifestyle img {
+    max-width: 100%; /* Ensure images scale properly */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 0; /* Optional: add rounded corners */
+    margin: -25px;
+    
+}
+
+/*========== featured ==========*/
+.featured{
+  text-align: center;
+}
+
+/* Slideshow */
+.slides{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: white; /* Light blue background */
+  border-radius: 8px;
+  margin: auto;
+  max-width: 1200px; /* Optional: Set a max-width to limit the width of the container */
+}
+
+
+.mySlides { position: relative;
+  max-width: 100%; /* Ensure container width */
+  height: 400px; /* Fixed height for all slides */
+  overflow: hidden; /* Hides any overflow */
+}
+.slide-img {
+display: block;
+margin: 0 auto;
+padding: 30px;
+}
+.mySlides img {
+  width: 400px; /* Fit the image to the container width */
+  height: 400px; /* Fit the image to the container height */
+  object-fit: scale-down; /* Ensure the image covers the container without distortion */
+  display: block;
+  margin: 0 auto;
+}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  width: 100%; /* Full width of its container */
+  max-width: 800px; /* Optional: Set a max-width for the slideshow */
+  margin: auto; /* Centering the container horizontally */
+ 
+}
+
+/* Caption text */
+.text {
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 18px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  margin-left: 700px;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: rgb(112, 164, 216);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  cursor: pointer; /* Make sure dots are clickable */
+}
+
+.active {
+  background-color: rgb(50, 91, 167);;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s; /* Slower transition */
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Navigation arrows */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-left: -238px;
+  margin-right: -255px;
+  margin-top: -80px;
+  color: rgb(50, 91, 167);
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  text-decoration: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  margin-right: -200px;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+  margin-left: -200px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgb(50, 91, 167);
+  color: white;
+}
+
+.testimonials-section h2 {
+    color: black;   
+    font-style: arial;
+    margin-top: 50px;
+}
+
+/* features*/
+
+
+/* Ratings*/ 
+.card {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.card-title {
+  font-size: medium;
+  font-weight: bold;
+}
+.card-img-top {
+  height: 80px;
+  width: 80px;
+}
+
+.star-ratings .checked {
+  color: #ff9e0b;
+}
+
+
+.footer-block {
+    width: 100%;
+    display: flex;
+    background-color: #07509D
+}
+
+.footer-block>div {
+    width: 100%;
+    max-width: 1280px;
+    margin: 60px auto;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+    padding: 0 15px;
+    justify-content: space-between
+}
+
+.footer-block>div>div {
+    width: 100;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: self-end;
+}
+
+.footer-block>div>div span {
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%
+}
+
+.footer-block>div>div p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0
+}
+
+.footer-block>div input {
+    font-size: 14px;
+    border: 2px solid #fff;
+    width: 100%;
+    background-color: transparent;
+    padding: 11px 15px
+}
+
+.footer-block>div input::-ms-input-placeholder {
+    /* Edge 12-18 */
+    color: #fff
+}
+
+.footer-block>div input::placeholder {
+    color: #fff
+}
+
+.footer-block .btn1 {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 13px 20px;
+    margin-top: 20px
+}
+
+.footer-block>div ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px
+}
+
+.footer-block>div ul li {
+    list-style: none;
+    margin-right: 10px;
+    transition: .3s all
+}
+
+.footer-block>div ul a {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    border: solid 3px #000;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.footer-block>div ul li:hover a {
+    background-color: #000;
+    
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    background-color: #171818;
+    padding: 15px;
+    border-bottom: 1px solid #a8a8a857;
+    
+}
+
+.footer>div {
+    width: 100%;
+    max-width: 1280px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #fff;
+    padding-top: 30px
+}
+
+.footer>div>div {
+    width: 25%
+}
+
+.footer>div>div>strong {
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.footer>div>div ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer>div>div ul li {
+    list-style: none;
+    color: #DFDDD6;
+    padding: 5px 0;
+    font-size: 12px;
+    display: flex
+}
+
+.footer>div>div ul li .fa-fw {
+    color: #07509D;
+    margin-right: 8px
+}
+
+.footer>div>div ul li a {
+    color: #DFDDD6
+}
+
+.footer>div>div ul li span {
+    line-height: 20px
+}
+
+.footer>div>div {
+    width: 25%
+}
+
+
+.row {
+    clear: left;
+}
+
+.row0 {
+    clear: left;
+    line-height: 1px;
+}
+
+
+/*From Uiverse.io by TemRevil*/ 
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loading-wide {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .color {
+    background-color: #3395ff;
+  }
+  
+  .l1 {
+    width: 15px;
+    height: 65px;
+    position: absolute;
+    animation: move-h 1.2s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  
+  .l2 {
+    width: 15px;
+    height: 60px;
+    position: absolute;
+    transform: rotate(90deg);
+    animation: move-v 1.2s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  
+  @keyframes move-h {
+    0% {
+      top: 0;
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      top: 30%;
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      top: 100%;
+      opacity: 0;
+    }
+  }
+  @keyframes move-v {
+    0% {
+      left: 0;
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      left: 45%;
+      opacity: 1;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      left: 100%;
+      opacity: 0;
+    }
+  }
+  
+  .animation-effect-light {
+    animation: effect 0.2s 0.1s infinite linear;
+  }
+  .animation-effect-light-d {
+    animation: effect 0.3s 0.2s infinite linear;
+  }
+  .animation-effect-rot {
+    animation: rot 0.8s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  .animation-effect-scale {
+    animation: scale 0.8s infinite cubic-bezier(0.65, 0.05, 0.36, 1);
+  }
+  
+  @keyframes effect {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  @keyframes rot {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes scale {
+    0% {
+      scale: 1;
+    }
+    50% {
+      scale: 1.9;
+    }
+    100% {
+      scale: 1;
+    }
+  }
+  
+  
+ 
+
+
+
+
+
+
+
+
+  
