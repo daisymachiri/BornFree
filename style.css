@@ -26,7 +26,8 @@
         margin: 0 !important;
     }
   .banner-content{
-  margin-left: -20px;
+    align item: center !important;
+  margin-left: -20px !important;
   
 }
 }
