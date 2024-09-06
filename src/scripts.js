@@ -153,7 +153,7 @@ function displayFeaturedProducts() {
 
       // Create image elements for multiple images
       let imagesHtml = product.images.map((image, index) => {
-        return `<img src="${image}" alt="${product.name} ${index + 1}" class="product-image" style="display: ${index === 0 ? 'block' : 'none'};">`;
+        return `<img src="${image}" alt="${product.name} loading="lazy" ${index + 1}" class="product-image" style="display: ${index === 0 ? 'block' : 'none'};">`;
       }).join('');
 
       productCard.innerHTML = `
