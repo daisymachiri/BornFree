@@ -259,23 +259,18 @@ img.img-fluid {
  margin: 45px;
 }
 
+
 .second-section img {
-    max-width: 100%;
     margin: 20px 0;
 }
-
-.lifestyle {
-    display: flex;
-    justify-content: center; /* Center the images horizontally */
-    gap: 20px; /* Space between images */
+.img-container {
+  position: relative;
+  margin-bottom: 15px;
+  overflow: hidden;
 }
-
-.lifestyle img {
-    max-width: 100%; /* Ensure images scale properly */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 0; /* Optional: add rounded corners */
-    margin: -25px;
-    
+.img-container img {
+ 
+  object-fit: cover; /* Cover the container while maintaining aspect ratio */
 }
 
 /*========== featured ==========*/
